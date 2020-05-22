@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BarberShop</string>
+    <string name="client_token">c326511421a5b91bdc91cb8e54698ded</string>
+    <string name="facebook_app_id">916147068860132</string>
+    <string name="fb_login_protocol_scheme">fb916147068860132</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="address_bullet">• Address :</string>
+    <string name="time_bullet">• Time :</string>
+    <string name="stylelist_bullet">• Stylist :</string>
+    <string name="bullet">• </string>
+
+</resources>

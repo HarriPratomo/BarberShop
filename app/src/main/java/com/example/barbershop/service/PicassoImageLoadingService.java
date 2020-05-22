@@ -1,0 +1,30 @@
+package com.example.barbershop.service;
+
+import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
+
+import ss.com.bannerslider.ImageLoadingService;
+
+/**
+ * Created by Harri Pratomo on 17/05/2020.
+ * <p>
+ * harrypratomo135@gmail.com
+ */
+public class PicassoImageLoadingService implements ImageLoadingService {
+    @Override
+    public void loadImage(String url, ImageView imageView) {
+        Picasso.get().load(url).into(imageView);
+    }
+
+    @Override
+    public void loadImage(int resource, ImageView imageView) {
+        Picasso.get().load(resource).into(imageView);
+
+    }
+
+    @Override
+    public void loadImage(String url, int placeHolder, int errorDrawable, ImageView imageView) {
+        Picasso.get().load(url).placeholder(placeHolder).error(errorDrawable).into(imageView);
+    }
+}

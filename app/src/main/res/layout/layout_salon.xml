@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/card_salon"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_salon_name"
+            android:text="Salon #1"
+            android:fontFamily="@font/gilroy_regular"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_salon_address"
+            android:text="Jalan Tanah Baru 1"
+            android:fontFamily="@font/gilroy_regular"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
